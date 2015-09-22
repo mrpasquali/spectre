@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C073C541BB181D00064476C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C073C531BB181D00064476C /* AppDelegate.swift */; };
+		8C073C561BB181D00064476C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C073C551BB181D00064476C /* ViewController.swift */; };
+		8C073C591BB181D00064476C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C073C571BB181D00064476C /* Main.storyboard */; };
+		8C073C5C1BB181D00064476C /* Spectre.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C073C5A1BB181D00064476C /* Spectre.xcdatamodeld */; };
+		8C073C5E1BB181D00064476C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C073C5D1BB181D00064476C /* Assets.xcassets */; };
+		8C073C611BB181D00064476C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C073C5F1BB181D00064476C /* LaunchScreen.storyboard */; };
+		8C073C6C1BB181D00064476C /* SpectreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C073C6B1BB181D00064476C /* SpectreTests.swift */; };
+		8C073C771BB181D10064476C /* SpectreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C073C761BB181D10064476C /* SpectreUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C073C681BB181D00064476C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C073C481BB181D00064476C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C073C4F1BB181D00064476C;
+			remoteInfo = Spectre;
+		};
+		8C073C731BB181D10064476C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C073C481BB181D00064476C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C073C4F1BB181D00064476C;
+			remoteInfo = Spectre;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C073C501BB181D00064476C /* Spectre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spectre.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C073C531BB181D00064476C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C073C551BB181D00064476C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C073C581BB181D00064476C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C073C5B1BB181D00064476C /* Spectre.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Spectre.xcdatamodel; sourceTree = "<group>"; };
+		8C073C5D1BB181D00064476C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C073C601BB181D00064476C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C073C621BB181D00064476C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C073C671BB181D00064476C /* SpectreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpectreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C073C6B1BB181D00064476C /* SpectreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectreTests.swift; sourceTree = "<group>"; };
+		8C073C6D1BB181D00064476C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C073C721BB181D10064476C /* SpectreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpectreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C073C761BB181D10064476C /* SpectreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectreUITests.swift; sourceTree = "<group>"; };
+		8C073C781BB181D10064476C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C073C4D1BB181D00064476C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C073C641BB181D00064476C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C073C6F1BB181D10064476C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C073C471BB181D00064476C = {
+			isa = PBXGroup;
+			children = (
+				8C073C521BB181D00064476C /* Spectre */,
+				8C073C6A1BB181D00064476C /* SpectreTests */,
+				8C073C751BB181D10064476C /* SpectreUITests */,
+				8C073C511BB181D00064476C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C073C511BB181D00064476C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C073C501BB181D00064476C /* Spectre.app */,
+				8C073C671BB181D00064476C /* SpectreTests.xctest */,
+				8C073C721BB181D10064476C /* SpectreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C073C521BB181D00064476C /* Spectre */ = {
+			isa = PBXGroup;
+			children = (
+				8C073C531BB181D00064476C /* AppDelegate.swift */,
+				8C073C551BB181D00064476C /* ViewController.swift */,
+				8C073C571BB181D00064476C /* Main.storyboard */,
+				8C073C5D1BB181D00064476C /* Assets.xcassets */,
+				8C073C5F1BB181D00064476C /* LaunchScreen.storyboard */,
+				8C073C621BB181D00064476C /* Info.plist */,
+				8C073C5A1BB181D00064476C /* Spectre.xcdatamodeld */,
+			);
+			path = Spectre;
+			sourceTree = "<group>";
+		};
+		8C073C6A1BB181D00064476C /* SpectreTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C073C6B1BB181D00064476C /* SpectreTests.swift */,
+				8C073C6D1BB181D00064476C /* Info.plist */,
+			);
+			path = SpectreTests;
+			sourceTree = "<group>";
+		};
+		8C073C751BB181D10064476C /* SpectreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C073C761BB181D10064476C /* SpectreUITests.swift */,
+				8C073C781BB181D10064476C /* Info.plist */,
+			);
+			path = SpectreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C073C4F1BB181D00064476C /* Spectre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C073C7B1BB181D10064476C /* Build configuration list for PBXNativeTarget "Spectre" */;
+			buildPhases = (
+				8C073C4C1BB181D00064476C /* Sources */,
+				8C073C4D1BB181D00064476C /* Frameworks */,
+				8C073C4E1BB181D00064476C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spectre;
+			productName = Spectre;
+			productReference = 8C073C501BB181D00064476C /* Spectre.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C073C661BB181D00064476C /* SpectreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C073C7E1BB181D10064476C /* Build configuration list for PBXNativeTarget "SpectreTests" */;
+			buildPhases = (
+				8C073C631BB181D00064476C /* Sources */,
+				8C073C641BB181D00064476C /* Frameworks */,
+				8C073C651BB181D00064476C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C073C691BB181D00064476C /* PBXTargetDependency */,
+			);
+			name = SpectreTests;
+			productName = SpectreTests;
+			productReference = 8C073C671BB181D00064476C /* SpectreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C073C711BB181D10064476C /* SpectreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C073C811BB181D10064476C /* Build configuration list for PBXNativeTarget "SpectreUITests" */;
+			buildPhases = (
+				8C073C6E1BB181D10064476C /* Sources */,
+				8C073C6F1BB181D10064476C /* Frameworks */,
+				8C073C701BB181D10064476C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C073C741BB181D10064476C /* PBXTargetDependency */,
+			);
+			name = SpectreUITests;
+			productName = SpectreUITests;
+			productReference = 8C073C721BB181D10064476C /* SpectreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C073C481BB181D00064476C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = MarinaPasquali;
+				TargetAttributes = {
+					8C073C4F1BB181D00064476C = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					8C073C661BB181D00064476C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 8C073C4F1BB181D00064476C;
+					};
+					8C073C711BB181D10064476C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 8C073C4F1BB181D00064476C;
+					};
+				};
+			};
+			buildConfigurationList = 8C073C4B1BB181D00064476C /* Build configuration list for PBXProject "Spectre" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C073C471BB181D00064476C;
+			productRefGroup = 8C073C511BB181D00064476C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C073C4F1BB181D00064476C /* Spectre */,
+				8C073C661BB181D00064476C /* SpectreTests */,
+				8C073C711BB181D10064476C /* SpectreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C073C4E1BB181D00064476C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C073C611BB181D00064476C /* LaunchScreen.storyboard in Resources */,
+				8C073C5E1BB181D00064476C /* Assets.xcassets in Resources */,
+				8C073C591BB181D00064476C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C073C651BB181D00064476C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C073C701BB181D10064476C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C073C4C1BB181D00064476C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C073C5C1BB181D00064476C /* Spectre.xcdatamodeld in Sources */,
+				8C073C561BB181D00064476C /* ViewController.swift in Sources */,
+				8C073C541BB181D00064476C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C073C631BB181D00064476C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C073C6C1BB181D00064476C /* SpectreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C073C6E1BB181D10064476C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C073C771BB181D10064476C /* SpectreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C073C691BB181D00064476C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C073C4F1BB181D00064476C /* Spectre */;
+			targetProxy = 8C073C681BB181D00064476C /* PBXContainerItemProxy */;
+		};
+		8C073C741BB181D10064476C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C073C4F1BB181D00064476C /* Spectre */;
+			targetProxy = 8C073C731BB181D10064476C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C073C571BB181D00064476C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C073C581BB181D00064476C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C073C5F1BB181D00064476C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C073C601BB181D00064476C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C073C791BB181D10064476C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C073C7A1BB181D10064476C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C073C7C1BB181D10064476C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spectre/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marinapasquali.Spectre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C073C7D1BB181D10064476C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spectre/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marinapasquali.Spectre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C073C7F1BB181D10064476C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpectreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marinapasquali.SpectreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spectre.app/Spectre";
+			};
+			name = Debug;
+		};
+		8C073C801BB181D10064476C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpectreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marinapasquali.SpectreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spectre.app/Spectre";
+			};
+			name = Release;
+		};
+		8C073C821BB181D10064476C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpectreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marinapasquali.SpectreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Spectre;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8C073C831BB181D10064476C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpectreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marinapasquali.SpectreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Spectre;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C073C4B1BB181D00064476C /* Build configuration list for PBXProject "Spectre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C073C791BB181D10064476C /* Debug */,
+				8C073C7A1BB181D10064476C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C073C7B1BB181D10064476C /* Build configuration list for PBXNativeTarget "Spectre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C073C7C1BB181D10064476C /* Debug */,
+				8C073C7D1BB181D10064476C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8C073C7E1BB181D10064476C /* Build configuration list for PBXNativeTarget "SpectreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C073C7F1BB181D10064476C /* Debug */,
+				8C073C801BB181D10064476C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8C073C811BB181D10064476C /* Build configuration list for PBXNativeTarget "SpectreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C073C821BB181D10064476C /* Debug */,
+				8C073C831BB181D10064476C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8C073C5A1BB181D00064476C /* Spectre.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8C073C5B1BB181D00064476C /* Spectre.xcdatamodel */,
+			);
+			currentVersion = 8C073C5B1BB181D00064476C /* Spectre.xcdatamodel */;
+			path = Spectre.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8C073C481BB181D00064476C /* Project object */;
+}
