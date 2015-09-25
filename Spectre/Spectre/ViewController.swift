@@ -8,18 +8,18 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SearchViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBOutlet weak var firstTitle: UILabel!
+    @IBOutlet weak var enterAction: UILabel!
+    @IBOutlet weak var okButton: UIButton!
+   
+    override func viewDidLoad        super.viewDidLoad()
+        
+        enterAction.layer.cornerRadius = 100
+        enterAction.layer.borderWidth = 800
+        enterAction.layer.borderColor = UIColor.whiteColor().CGColor
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
-}
+    
+ }
 
