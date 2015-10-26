@@ -29,7 +29,9 @@ class SearchViewController: UIViewController {
     // MARK: - IBActions
     
     @IBAction func getFlightDetailsButton(sender: AnyObject) {
-        FlightStats.getFlightDetails(
+        departureGateLabel.hidden = true
+        
+            FlightStats.getFlightDetails(
             flightNumberTextField.text!,
             airline: airlineCodeTextField.text!,
             label: departureGateLabel
